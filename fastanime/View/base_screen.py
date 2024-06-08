@@ -18,7 +18,7 @@ class SearchBar(MDBoxLayout):
 
 
 class Tooltip(MDTooltip):
-    pass
+    text = StringProperty()
 
 
 class TooltipMDIconButton(Tooltip, MDIconButton):
